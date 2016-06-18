@@ -1,0 +1,36 @@
+<h1> About </h1>
+
+<%= Time.zone.now %>
+
+<p>
+    <%= 2+6 %>
+</p>
+
+<p>
+    <%= 0.2+0.4 %>
+</p>
+
+<p>
+    <%= @array.join("+") %>
+    <ol>
+        <% @array.each do |el| %>
+          <li> <%= el %> </li>
+        <% end %>
+    </ol>
+</p>
+
+<p>
+    <div>
+        <% @brray.each do |el| %>
+        <p> <%= el.reverse %> </p>
+        <% end %>
+    </div>
+</p>
+
+<p>
+    <div>
+        <% @crray.each do |el| %>
+            <p> Gdy dodam <%= el[0] %> i <%= el[1] %> to otrzymam <%= el[0] + el[1] %> </p>
+        <% end %>
+    </div>
+</p>

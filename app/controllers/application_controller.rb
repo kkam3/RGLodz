@@ -7,6 +7,9 @@ class ApplicationController < ActionController::Base
   end 
   
   def about
+    @array = [17, 10, 5]
+    @brray = ["Klaudia", "Kamila", "Pawel"]
+    @crray = [[2, 6], [10, 13], [12, 9]]
   end
   
   def contact
