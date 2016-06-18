@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country: MyString
+  longitude: 9.99
+  latitude: 9.99
+  rating: 1
+
+two:
+  country: MyString
+  longitude: 9.99
+  latitude: 9.99
+  rating: 1
