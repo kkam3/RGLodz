@@ -1,0 +1,12 @@
+<p>Find me in app/views/cities/new.html.erb</p>
+
+<h1>Here you can add a new city!</h1>
+
+<%= form_for @city, url: {action: "create"} do |f| %>
+    <%= f.text_field :name, placeholder: "Add city" %>
+    <%= f.text_field :country, placeholder: "Add country" %>
+    <%= f.text_field :longitude, placeholder: "Add longitude" %>
+    <%= f.text_field :latitude, placeholder: "Add latitude" %>
+    <%= f.text_field :rating, placeholder: "Add rating" %>
+    <%= f.submit "Create" %>
+<% end %>

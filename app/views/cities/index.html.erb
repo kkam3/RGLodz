@@ -1,0 +1,10 @@
+
+<h1> Here you can find the most amazing cities in the world!</h1>
+
+<h2> Choose a city: </h2>
+<div>
+    <% @cities.each do |city| %>
+    <h3> <%= link_to city.name, city_path(city.id) %> </h3>
+
+    <% end %>
+</div>

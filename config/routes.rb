@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :cities
+
   root to: 'application#home'
   get "/about", to: 'application#about'
   get "/contact", to: 'application#contact'
